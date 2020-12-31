@@ -1,10 +1,10 @@
 ﻿<!DOCTYPE html>
-
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap" rel="stylesheet">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap" rel="stylesheet">
+
     <title>My Second Form Page</title>
     <style>
         body {
@@ -25,16 +25,38 @@
             <li><a href="#contact">Contact</a></li>
             <li><a href="#about">About</a></li>
         </ul>
-    </nav>  
+    </nav>
     <h1>MySecond Form</h1>
     <form>
         <div class="form-group">
-            <label for="fname">Enter your first name:></label><br />
+            <label for="fname">Enter your first name:</label><br />
             <input type="text" id="fname" name="name" placeholder="First Name" maxlength="15" required /><br />
-            <label for="lname">Enter your last name:></label><br />
+            <label for="lname">Enter your last name:</label><br />
             <input type="text" id="lname" name="name" placeholder="last Name" maxlength="15" required /><br />
+            <label for="email">Enter your Email:</label><br />
+            <input type="email"  id="email" name="email" placeholder="email@example.com"/><br />
+            <label for="pwd">Password:</label><br />
+            <input type="password" id="pwd" name="pwd"/><br />
+            <input type="button" id="submit" value="Create Account"/>
+        </div>
+    </form>
+    <form>
+        <div class="form-group">
+            <input type="radio" id="gender" name="male" />
+            <label for="male">Male</label><br />
+            <input type="radio" id="gender" name="female" />
+            <label for="female">Female</label><br />
 
-            
+        </div>
+    </form>
+    <form>
+        <div class="form-group">
+            <input type="checkbox" id="veh" name="bike" />
+            <label for="bike">I have a bike</label>
+            <input type="checkbox" id="veh" name="car" />
+            <label for="car">I have a car</label>
+            <input type="checkbox" id="veh" name="bus" />
+            <label for="bus">I take the bus</label>
         </div>
     </form>
 </body>
