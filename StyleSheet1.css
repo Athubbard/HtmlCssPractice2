@@ -1,0 +1,75 @@
+﻿ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+li:hover {
+    background-color: #cccac4;
+}
+.active {
+    background-color: #d6ca5e;
+}
+h1 {
+    padding-top: 35px;
+}
+
+body {
+    background-color: gray;
+    background-image: linear-gradient(to right, #eb52ae, #bfbbbe);
+}
+
+/*selector for an id is #*/
+
+#fname {
+    border-radius: 6px;
+    height: 22px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#lname {
+    border-radius: 6px;
+    height: 22px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#email {
+    border-radius: 6px;
+    height: 22px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#pwd {
+    border-radius: 6px;
+    height: 22px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#gender {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
